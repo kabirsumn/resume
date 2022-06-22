@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: poppins;
+  background-color: #b3d1ff;
+}
+
+.container {
+  display: flex;
+  margin: 50px auto;
+  width: 1000px;
+  min-height: 800px;
+  line-height: 1.5;
+
+  box-shadow: 0 35px 55px rgb(0, 0, 0, 0.3);
+}
+.left,
+.right {
+  padding: 30px 10px;
+}
+
+.right {
+  width: 35%;
+  background-color: #003d66;
+  color: #d9d9d9;
+  text-align: center;
+}
+
+.left {
+  width: 65%;
+  background-color: #d9d9d9;
+  padding: 30px;
+  line-height: 2;
+}
+
+.img {
+  width: max-content;
+  height: min-content;
+  margin: 0 auto;
+  position: relative;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text {
+  margin: 20px 0;
+  padding: 15px 0;
+  font-size: 1.2rem;
+  letter-spacing: 1.3px;
+  border-bottom: 2px solid #0f8bb8;
+}
+
+.contact .text {
+  border: none;
+}
+.info {
+  text-align: left;
+}
+
+.span {
+  padding: 5px;
+  font-size: 0.9rem;
+  line-height: 2.5;
+}
+
+a {
+  text-decoration: none;
+  color: #d9d9d9;
+}
+
+.texture {
+  color: #0f8bb8;
+}
+
+ul {
+  list-style: none;
+}
